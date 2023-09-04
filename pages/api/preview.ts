@@ -1,6 +1,8 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 import { getPreviewPost } from '../../lib/api'
 
+export const runtime = 'experimental-edge' // 'nodejs' (default) | 'edge'
+
 export default async function preview(
   req: NextApiRequest,
   res: NextApiResponse
