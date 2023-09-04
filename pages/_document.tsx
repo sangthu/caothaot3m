@@ -1,6 +1,6 @@
 import { Html, Head, Main, NextScript } from 'next/document'
 
-export const runtime = 'experimental-edge'
+export const runtime = 'edge'
 
 export default function Document() {
   return (
