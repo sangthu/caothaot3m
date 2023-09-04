@@ -16,4 +16,5 @@ module.exports = {
       'secure.gravatar.com',
     ],
   },
+  // output: 'export',
 }
